@@ -29,7 +29,7 @@ header {
 }
 
 h1, h3 {
-	font-family: 'Open Sans Regular', cursive;
+	font-family: 'Trebuchet MS', cursive;
 }
 
 header h1 {
@@ -41,7 +41,7 @@ header h1 {
 header h3 {
 	color: #d9c29b;
     font-size: 1em;
-	font-family: 'Merriweather', 'Georgia', serif;
+	font-family: 'Trebuchet MS';
 	font-weight: 100;
 	margin: 5px 0 50px 0;
 
@@ -53,7 +53,7 @@ blockquote p {
 	padding: 25px;
 text-align: center;
 font-size: 2em;
-font-family: 'Open Sans Regular', cursive;
+font-family: 'Trebuchet MS', cursive;
 }
 blockquote cite {
 	display: block;

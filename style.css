@@ -29,7 +29,7 @@ header {
 }
 
 h1, h3 {
-	font-family: 'Special Elite', cursive;
+	font-family: 'Open Sans', cursive;
 }
 
 header h1 {
@@ -53,7 +53,7 @@ blockquote p {
 	padding: 25px;
 text-align: center;
 font-size: 2em;
-font-family: 'Special Elite', cursive;
+font-family: 'Open Sans', cursive;
 }
 blockquote cite {
 	display: block;

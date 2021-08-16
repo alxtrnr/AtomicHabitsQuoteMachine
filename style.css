@@ -29,7 +29,7 @@ header {
 }
 
 h1, h3 {
-	font-family: 'Open Sans', cursive;
+	font-family: 'Open Sans Regular', cursive;
 }
 
 header h1 {
@@ -53,7 +53,7 @@ blockquote p {
 	padding: 25px;
 text-align: center;
 font-size: 2em;
-font-family: 'Open Sans', cursive;
+font-family: 'Open Sans Regular', cursive;
 }
 blockquote cite {
 	display: block;

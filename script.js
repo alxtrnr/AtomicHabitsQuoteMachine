@@ -18,216 +18,218 @@ $(document).ready(function() {
     function displayQuoteFromArray() {
         var myQuotes = [
 	        {
-	            author: "C S Lewis",
-	            quote:"A sum can be put right; but only by going back till you find the error and working it afresh from that point, never by simply going on."
+	            author: "James Clear",
+	            quote:"I know that if things were going to improve, I was the one responsible for making it happen."
 	        },
 	        {
-	            author: "John Dewey",
-	            quote:"It is a familiar and significant saying that a problem well put is half-solved."
+	            author: "James Clear",
+	            quote:"The only way I made progress - the only choice I had - was to start small."
 	        },
 	        {
-	            author: "Brian Kernighan",
-	            quote:"The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."
+	            author: "James Clear",
+	            quote:"What starts as a small win or a minor setback accumulates into something much more."
 	        },
 	        {
-	            author: "Brian Kernighan",
-	            quote:"90% of the functionality delivered now is better than 100% delivered never."
+	            author: "James Clear",
+	            quote:"It is only when looking back two, five, or perhaps ten years that the value of good habits and the cost of bad ones become strikingly apparent."
 	        },
 	        {
-	            author: "Albert Einstein",
-	            quote:"A clever person solves a problem. A wise person avoids it."
+	            author: "James Clear",
+	            quote:"Habits often appear to make no difference until you cross a critical threshold and unlock a new level of performance."
 	        },
 	        {
-	            author: "Albert Einstein",
-	            quote:"The formulation of the problem is often more essential than its solution, which may be merely a matter of mathematical or experimental skill."
+	            author: "James Clear",
+	            quote:"If successful and unsuccessful people share the same goals, then the goal cannot be what differentiates the winners from the losers."
 	        },
 	        {
-	            author: "Atul Gawande",
-	            quote:"We always hope for the easy fix: the one simple change that will erase a problem in a stroke. But few things in life work this way. Instead, success requires making a hundred small steps go right."
+	            author: "James Clear",
+	            quote:"The purpose of setting goals is to win the game. The purpose of building systems is to continue playing the game."
 	        },
 	        {
-	            author: "Antoine de Saint-Exupery",
-	            quote:"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
+	            author: "James Clear",
+	            quote:"The more pride you have in a particular aspect of your identity, the more motivated you'll be to maintain the habits associated with it."
 	        },
 	        {
-	            author: "Robert C. Martin",
-	            quote:"A long descriptive name is better than a short enigmatic name. A long descriptive name is better than a long descriptive comment."
+	            author: "James Clear",
+	            quote:"Good habits can make rational sense, but if they conflict with your identity, you will fail to put them into action."
 	        },
 	        {
-	            author: "Robert C. Martin",
-	            quote:"If you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read."
+	            author: "James Clear",
+	            quote:"If you keep casting the same votes you've always cast, you're going to get the same results you've always had."
 	        },
 	        {
-	            author: "Robert C. Martin",
-	            quote:"When you are working on a problem, you sometimes get so close to it that you can’t see all the options. You miss elegant solutions because the creative part of your mind is suppressed by the intensity of your focus."
+	            author: "James Clear",
+	            quote:"You need to know who you want to be. Otherwise, your quest for change is like a boat without a rudder."
 	        },
 	        {
-	            author: "Robert C. Martin",
-	            quote:"Programming is a social activity."
+	            author: "James Clear",
+	            quote:"Fundamentally, habits are not about having something. They are about becoming someone."
 	        },
 	        {
-	            author: "Robert C. Martin",
-	            quote:"The only way to go fast, is to go well."
+	            author: "James Clear",
+	            quote:"By the time we become adults, we rarely notice the habits that are running our lives."
 	        },
 	        {
-	            author: "Robert C. Martin",
-	            quote:"One difference between a smart programmer and a professional programmer is that the professional understands that clarity is king."
+	            author: "James Clear",
+	            quote:"We underestimate how much our brains and bodies can do without thinking."
 	        },
 	        {
-	            author: "Eric Schmidt",
-	            quote:"There's nothing that cannot be found through some search engine or on the Internet somewhere."
+	            author: "James Clear",
+	            quote:"We're so used to doing what we've always done that we don't stop to question whether it's the right thing to do at all."
 	        },
 	        {
-	            author: "Donald Knuth",
-	            quote:"Programming is the art of telling another human being what one wants the computer to do."
+	            author: "James Clear",
+	            quote:"The process of behavior change always start with awareness. You need to be aware of your habits before you can change them."
 	        },
 	        {
-	            author: "Donald Knuth",
-	            quote:"Programs are meant to be read by humans and only incidentally for computers to execute."
+	            author: "James Clear",
+	            quote:"We often say yes to little requests because we are not clear enough about what we need to be doing instead."
 	        },
 	        {
-	            author: "Donald Knuth",
-	            quote:"Always remember, however, that there’s usually a simpler and better way to do something than the first way that pops into your head."
+	            author: "James Clear", 
+	            quote:"People often choose products not because of what they are, but because of where they are."
 	        },
 	        {
-	            author: "Bjarne Stroustrup",
-	            quote:"The most fundamental problem in software development is complexity. There is only one basic way of dealing with complexity: divide and conquer."
+	            author: "James Clear",
+	            quote:"Your habits change depending on the room you are in and the cues in front of you."
 	        },
 	        {
-	            author: "Bjarne Stroustrup",
-	            quote:"The most important single aspect of software development is to be clear about what you are trying to build."
+	            author: "James Clear",
+	            quote:"Customers will occasionally buy products not because they want them but because of how they are presented to them."
 	        },
 	        {
-	            author: "Bjarne Stroustrup",
-	            quote:"It's easy to win forgiveness for being wrong; being right is what gets you into real trouble."
+	            author: "James Clear",
+	            quote:"A stable environment where everything has a place and a purpose is an environment where habits can easily form."
 	        },
 	        {
-	            author: "Joshua Block",
-	            quote:"I will cheerfully spend literally hours on identifier names: variable names, method names, and so forth, to make my code readable."
+	            author: "James Clear",
+	            quote:"Addictions could spontaneously dissolve if there was a radical change in the environment."
 	        },
 	        {
-	            author: "Ken Thompson",
-	            quote:"It's always good to take an orthogonal view of something. It develops ideas."
+	            author: "James Clear",
+	            quote:"Here's the punchline: You can break a habit, but you're unlikely to forget it."
 	        },
 	        {
-	            author: "Ken Thompson",
-	            quote:"When in doubt, use brute force."
+	            author: "James Clear",
+	            quote:"I have never seen someone consistently stick to positive habits in a negative environment."
 	        },
 	        {
-	            author: "Linus Torvalds",
-	            quote:"Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
+	            author: "James Clear",
+	            quote:"One of the most practical ways to eliminate a bad habit is to reduce exposure to the cue that causes it."
 	        },
 	        {
-	            author: "Rob Pike",
-	            quote:"Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident."
+	            author: "James Clear",
+	            quote:"If history serve as a guide, the opportunities of the future will be more attractive than those of today."
 	        },
 	        {
-	            author: "Rob Pike",
-	            quote:"Object-oriented design is the roman numerals of computing."
+	            author: "James Clear",
+	            quote:"Dopamine released not only when you experience pleasure, but also when you anticipate it."
 	        },
 	        {
-	            author: "Rob Pike",
-	            quote:"Eventually, I decided that thinking was not getting me very far and it was time to try building."
+	            author: "Charles Darwin",
+	            quote:"In the long history of humankind, those who learned to collaborate and improvise most effectively hav prevailed."
 	        },
 	        {
-	            author: "Eric Schmidt",
-	            quote:"The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had."
+	            author: "James Clear",
+	            quote:"If you work in a job where everyone wears expensive suits, then you'll be inclined to splurge on one as well."
 	        },
 	        {
-	            author: "Brian Kernighan",
-	            quote:"Controlling complexity is the essence of computer programming."
+	            author: "James Clear",
+	            quote:"The closer we are to someone, the more likely we are to imitate some of their habits."
 	        },
 	        {
-	            author: "Robert C. Martin",
-	            quote:"Programmers must avoid leaving false clues that obscure the meaning of code."
+	            author: "James Clear",
+	            quote:"Once your pride gets involved, you'll fight tooth and nail to maintain your habits."
 	        },
 	        {
-	            author: "Brian Kernighan",
-	            quote:"Another effective [debugging] technique is to explain your code to someone else. This will often cause you to explain the bug to yourself."
+	            author: "James Clear",
+	            quote:"You have the power to change your beliefs about yourself. Your identity is not set in stone. You have a choice in every moment."
 	        },
 	        {
-	            author: "Alexander Graham Bell",
-	            quote:"Great discoveries and improvements invariably involve the cooperation of many minds."
+	            author: "James Clear",
+	            quote:"It's only by making the fundamentals of life easier (through habits) that you can create the mental space needed for free thinking and creativity."
 	        },
 	        {
-	            author: "Christopher Strachey",
-	            quote:"You can't see the semantic wood for the syntactic trees."
+	            author: "James Clear",
+	            quote:"Until you make the unconscious conscious, it will direct your life and you will call it fate."
 	        },
 	        {
-	            author: "Nita Leland",
-	            quote:"Pay attention to the inner voice that tells you when something feels right. Much of your creative problem-solving occurs at an unconscious level."
+	            author: "James Clear",
+	            quote:"No behavior happens in isolation. Each action becomes a cue that triggers the next behavior."
 	        },
 	        {
-	            author: "Brian Kernighan",
-	            quote:"One university computer center kept a teddy bear near the help desk. Students with mysterious bugs were required to explain them to the bear before they could speak to a human counselor."
+	            author: "James Clear",
+	            quote:"People who make a specific plan for when and where they will perform a new habits are more likely to follow through."
 	        },
 	        {
-	            author: "Brian Kernighan",
-	            quote:"Mechanical rules are never a substitute for clarity of thought."
+	            author: "James Clear",
+	            quote:"The purpose of every habit is to solve the problems you face with as little energy and effort as possible."
 	        },
 	        {
-	            author: "Brian Kernighan",
-	            quote:"Believe the terrain, not the map."
+	            author: "James Clear",
+	            quote:"Building better habits isn't about littering your day with life hacks."
 	        },
 	        {
-	            author: "Scott Berkun",
-	            quote:"The best lesson from the myths of Newton and Archimedes is to work passionately but to take breaks. Sitting under trees and relaxing in baths lets the mind wander and frees the subconscious to do work on our behalf."
+	            author: "James Clear",
+	            quote:"The more automatic a behavior becomes, the less likely we are to consciously think about it."
 	        },
 	        {
-	            author: "Scott Berkun",
-	            quote:"Increasing creativeness doesn’t require anything more than increasing your observations: become more aware of possible combinations."
+	            author: "James Clear",
+	            quote:"The process of behavior change always start with awareness. You need to be aware of your habits before you can change them."
 	        },
 	        {
-	            author: "Scott Berkun",
-	            quote:"The bottleneck is never code or creativity; it's lack of clarity."
+	            author: "James Clear",
+	            quote:"People who make a specific plan for when and where they will perform a new habits are more likely to follow through."
 	        },
 	        {
-	            author: "Mary Poppendieck",
-	            quote:"The biggest cause of failure in software-intensive systems is not technical failure; it’s building the wrong thing."
+	            author: "James Clear",
+	            quote:"All habits serve you in some way - even the bad ones - which is why you repeat them."
 	        },
 	        {
-	            author: "Mary Poppendieck",
-	            quote:"The most successful development occurs when developers talk directly to customers or are part of business teams."
+	            author: "James Clear",
+	            quote:"Peer pressure is bad only if you're surrounded by bad influences."
 	        },
 	        {
-	            author: "Steve McConnell",
-	            quote:"The big optimizations come from refining the high-level design, not the individual routines."
+	            author: "James Clear",
+	            quote:"Fundamentally, habits are not about having something. They are about becoming someone."
 	        },
 	        {
-	            author: "Steve McConnell",
-	            quote:"Spend your time on the 20 percent of the refactorings that provide 80 percent of the benefit."
+	            author: "James Clear",
+	            quote:"Behaviors are attractive when they help us fit in."
 	        },
 	        {
-	            author: "Steve McConnell",
-	            quote:"The single most important reason to create a routine is to reduce a program's complexity. Create a routine to hide information so that you won't need to think about it."
+	            author: "James Clear",
+	            quote:"One of the most effective things you can do to build better habits is to join a culture where your desired behavior is the normal behavior."
 	        },
 	        {
-	            author: "Steve McConnell",
-	            quote:"Few people can understand more than three levels of nested ifs."
+	            author: "James Clear",
+	            quote:"Surround yourself with people who have the habits you want to have yourself. You'll rise together."
 	        },
 	        {
-	            author: "Steve McConnell",
-	            quote:"The most challenging part of programming is conceptualizing the problem, and many errors in programming are conceptual errors."
+	            author: "James Clear",
+	            quote:"The culture we live in determines which behaviors are attractive to us."
 	        },
 	        {
-	            author: "Steve McConnell",
-	            quote:"Modern software is inherently complex, and no matter how hard you try, you'll eventually bump into some level of complexity that's inherent in the real-world problem itself."
+	            author: "James Clear",
+	            quote:"It's friendship and community that embed a new identity and help behaviors last over the long run."
 	        },
 	        {
-	            author: "Steve McConnell",
-	            quote:"It's better to strive for a good solution and avoid disaster rather than trying to find the best solution."
+	            author: "James Clear",
+	            quote:"People who don't have their habits handled are often the ones with the least amount of freedom."
 	        },
 	        {
-	            author: "Robert H Schuller",
-	            quote:"Again and again, the impossible problem is solved when we see that the problem is only a tough decision waiting to be made."
+	            author: "James Clear",
+	            quote:"The closer we are to someone, the more likely we are to imitate some of their habits."
 	        },
 	        {
-	            author: "Sherlock Holmes",
-	            quote:"When you have eliminated the impossible, whatever remains, however improbable, must be the truth."
+	            author: "James Clear",
+	            quote:"It's friendship and community that embed a new identity and help behaviors last over the long run."
+	            
 	        },
 	        {
-	            author: "Thomas Alba Edison",
-	            quote:"I have not failed. I've just found 10,000 ways that won't work."
+	            author: "James Clear",
+	            quote:"Remaining part of a group after achieving a goal is crucial to maintaining your habits."
+	            
         } 
         ];
         var random = Math.floor(Math.random() * myQuotes.length);

@@ -34,12 +34,12 @@ h1, h3 {
 
 header h1 {
 	font-weight: 100;
-    color: rgba(0, 0, 0, 0.75);
+    color: rgba(174,141,96,255);
 	margin-bottom: 0;
 }
 
 header h3 {
-	color: #070100;
+	color: #d9c29b;
     font-size: 1em;
 	font-family: 'Merriweather', 'Georgia', serif;
 	font-weight: 100;

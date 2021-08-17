@@ -1,6 +1,6 @@
 # Atomic Habits Quote Machine
 
-For anyone working on building or reducing habits and could do with some inspiration. Quotes from James Clear author of Atomic Habits. 
+For anyone working on building or reducing habits and could do with some inspiration. Quotes from [James Clear](https://jamesclear.com/) author of [Atomic Habits.](https://jamesclear.com/atomic-habits) 
 
 ![Snapshot Image](images/final.jpg)
 

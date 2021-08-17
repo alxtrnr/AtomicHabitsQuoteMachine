@@ -18,13 +18,13 @@ $(document).ready(function() {
     function displayQuoteFromArray() {
         var myQuotes = [
 	        {
-	author: "James Clear"
-	quote: "It is so easy to overestimate the importance of one defining moment and underestimating the value of making small improvements on a daily basis.”"
-},
-{
-	author: "James Clear"
-	quote: "I know that if things were going to improve, I was the one responsible for making it happen."
-},
+		    author: "James Clear"
+		    quote: "It is so easy to overestimate the importance of one defining moment and underestimating the value of making small improvements on a daily basis.”
+		},
+		{
+		    author: "James Clear"
+	            quote: "I know that if things were going to improve, I was the one responsible for making it happen."
+		},
 {
 	author: "James Clear"
 	quote: "In the messy world of a college dorm, I made it a point to keep my room neat and tidy."
